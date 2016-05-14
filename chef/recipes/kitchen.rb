@@ -14,14 +14,4 @@
 # limitations under the License.
 #
 
-require 'poise_solaris/resources/smf_property'
-require 'poise_solaris/resources/solaris_kitchen'
-
-
-module PoiseSolaris
-  # Chef resources and providers for poise-solaris.
-  #
-  # @since 1.0.0
-  module Resources
-  end
-end
+solaris_kitchen 'kitchen'
