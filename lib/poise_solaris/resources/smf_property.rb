@@ -73,7 +73,6 @@ module PoiseSolaris
         end
       end
 
-
       # Provider for `smf_property`.
       #
       # @since 1.0.0
